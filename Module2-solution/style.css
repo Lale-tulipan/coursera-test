@@ -89,4 +89,7 @@ p {
                             "s2"
                             "s3"
     }
+    section {
+        margin-bottom: 20px;
+    }
 }
