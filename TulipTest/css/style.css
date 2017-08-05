@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    color: #FF6501;
+}
+
+#header-nav {
+    background-color: black;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    height: 80px;
+}
+
+#nav-list a{
+    color: #FF6501;
+    text-align: right;
+}
+
+#nav-list a:hover {
+    color: white;
+}
+
+.navbar-header button.navbar-toggle, .icon-bar {
+    border: 1px solid #FF6501;
+    color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: white;
+}
+
+#contactTab {
+    border-left: 10px solid white;
+}
