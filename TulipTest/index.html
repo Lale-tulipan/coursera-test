@@ -12,41 +12,64 @@
 
 
 <body>
-    <header> <!--header-->
-        <nav id="header-nav" class="navbar navbar-default"> <!--black background-->
+    <header>
+        <!--header-->
+        <nav id="header-nav" class="navbar navbar-default">
+            <!--black background-->
             <div class="container-fluid">
                 <div class="navbar-header">
 
+                    <!--tulip logo-->
                     <a class="navbar-brand" href="index.html">
-                        <img id="logo-img" alt="Brand" src="./logo.png"> <!--tulip logo-->
-                     </a>
-                                                                                                            <!--collapsable menu-->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
-                        aria-expanded="false">                                                                          
+                        <img id="logo-img" alt="Brand" src="./logo.png"></a>
+
+                    <!--collapsable menu-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">                                                                         
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <span class="glyphicon glyphicon-menu-hamburger"> </span>
                      </button>
                 </div>
 
-                    <div id="collapsable-nav" class="collapse navbar-collapse">   <!--menu categories-->
-                        <ul id="nav-list" class="nav navbar-nav navbar-right">
-                            <li><a href="film.html">Film</a></li>
-                            <li><a href="advertising.html">Advertising</a></li>
-                            <li><a href="music.html">Music</a></li>
-                            <li><a href="wedding.html">Wedding</a></li>
-                            <li><a href="theatre.html">Theatre</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
+                <!--menu categories-->
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li><a href="film.html">Film</a></li>
+                        <li><a href="advertising.html">Advertising</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="wedding.html">Wedding</a></li>
+                        <li><a href="theatre.html">Theatre</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
 
             </div>
         </nav>
     </header>
+
+    <!--Main Body-->
+    <div id="main-content" class="container">
+        <div class="video-wrapper">
+             <div class="video-description">OSCE and International Institut For Democracy And Electoral Assistance</div>
+            <iframe class="iframes" src="https://player.vimeo.com/video/149456899" width="512" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="video-wrapper">
+             <div class="video-description">Agria: Agro-Industrial Group</div>
+            <iframe class="iframes" src="https://player.vimeo.com/video/114329624" width="512" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="video-wrapper">
+            <div class="video-description">Kosta Petrov and P World</div>
+            <iframe class="iframes" src="https://player.vimeo.com/video/74290221" width="512" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+
+
 
 
     <!--jquery set up-->

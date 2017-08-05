@@ -12,7 +12,7 @@ body {
 }
 
 #logo-img {
-    height: 80px;
+    height: 100px;
 }
 
 #nav-list a{
@@ -25,14 +25,38 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .icon-bar {
-    border: 1px solid #FF6501;
-    color: white;
+    border: 1px solid black;
+    color: #FF6501;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: white;
+    background-color: black;
 }
 
-#contactTab {
-    border-left: 10px solid white;
+.iframes{
+    width: 512px;
+    height: 288px;
+}
+
+.video-wrapper{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.video-description{
+    margin-bottom: 15px;
+}
+
+/*Media Queries*/
+@media (max-width: 768px){
+    #logo-img {
+    height: 40px;
+}
+    .video-wrapper{
+        font-size: 16px;
+    }
+    .iframes{
+    width: 100%;
+    height: 144;
+    }
 }
